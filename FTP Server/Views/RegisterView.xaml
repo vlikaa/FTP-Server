@@ -59,14 +59,23 @@
                          Title="Username"
                          Placeholder="Enter your username"
                          HorizontalAlignment="Stretch" />
+        
         <c:CustomTextBox Grid.Row="3"
                          Margin="0 0 0 12"
+                         Title="Email"
+                         Placeholder="Enter your email"
                          HorizontalAlignment="Stretch" />
-        <c:CustomTextBox Grid.Row="4"
+        
+        <c:CustomPasswordBox Grid.Row="4"
+                             Margin="0 0 0 12"
+                             Title="Password"
+                             Placeholder="Enter your password"
+                             HorizontalAlignment="Stretch" />
+        
+        <c:CustomPasswordBox Grid.Row="5"
                          Margin="0 0 0 12"
-                         HorizontalAlignment="Stretch" />
-        <c:CustomTextBox Grid.Row="5"
-                         Margin="0 0 0 12"
+                         Title="Confirm Password"
+                         Placeholder="Confirm your password"
                          HorizontalAlignment="Stretch" />
         
         <Button Grid.Row="6"

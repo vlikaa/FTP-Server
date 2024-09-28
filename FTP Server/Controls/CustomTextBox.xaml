@@ -17,6 +17,7 @@
         <ControlTemplate x:Key="TextBoxTemplate">
             <StackPanel Background="{TemplateBinding TextBox.Background}">
                 <TextBlock Text="{Binding Title}"
+                           FontSize="11.5"
                            Margin="2 0 0 5"/>
                 <Border BorderBrush="#C0C5C5"
                         BorderThickness="1"

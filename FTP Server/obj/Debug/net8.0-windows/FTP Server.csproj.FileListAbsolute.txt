@@ -32,3 +32,5 @@ C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\Views\
 C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\FTP Server.sourcelink.json
 C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\Controls\CustomTextBox.g.cs
 C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\Controls\CustomTextBox.baml
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\Controls\CustomPasswordBox.g.cs
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\Controls\CustomPasswordBox.baml

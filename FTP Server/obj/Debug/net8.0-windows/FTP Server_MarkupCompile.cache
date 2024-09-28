@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\msi\RiderProjects\FTP Server\FTP Server\App.xaml
-31067587996
+4-2092748856
 
-11-657147020
+12429214788
 204-1002176160
-Controls\CustomTextBox.xaml;Views\MainView.xaml;Views\RegisterView.xaml;
+Controls\CustomPasswordBox.xaml;Controls\CustomTextBox.xaml;Views\MainView.xaml;Views\RegisterView.xaml;
 
 False
 
