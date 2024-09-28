@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using FTP_Server.Services;
 using FTP_Server.Views;
 using FTP_Server.ViewModels;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +19,9 @@ public partial class App
 		
 		_serviceCollection.AddSingleton<MainView>();
 		_serviceCollection.AddSingleton<MainViewModel>();
+		_serviceCollection.AddSingleton<BaseViewModel, RegisterViewModel>();
+		
+		_serviceCollection.AddSingleton<ViewModelFactory>();
 
 		_serviceProvider = _serviceCollection.BuildServiceProvider();
 		

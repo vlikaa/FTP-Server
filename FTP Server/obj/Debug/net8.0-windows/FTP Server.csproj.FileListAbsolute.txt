@@ -23,3 +23,12 @@ C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\refint
 C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\FTP Server.pdb
 C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\FTP Server.genruntimeconfig.cache
 C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\ref\FTP Server.dll
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\Views\RegisterView.g.cs
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\Views\RegisterView.baml
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\FTP Server.sourcelink.json
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\Controls\CustomTextBox.g.cs
+C:\Users\msi\RiderProjects\FTP Server\FTP Server\obj\Debug\net8.0-windows\Controls\CustomTextBox.baml

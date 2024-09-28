@@ -3,10 +3,43 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:local="clr-namespace:FTP_Server.Views"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:v="clr-namespace:FTP_Server.Views"
+        xmlns:vm="clr-namespace:FTP_Server.ViewModels"
         mc:Ignorable="d"
-        Title="MainView" Height="450" Width="800">
+        Title="MainView" Height="650" Width="1000"
+        d:DataContext="{d:DesignInstance Type=vm:MainViewModel, IsDesignTimeCreatable=False}">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:RegisterViewModel}">
+            <v:RegisterView />
+        </DataTemplate>    
+    </Window.Resources>
+    
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
         
+        <Grid Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0"
+                        Margin="10"
+                        Orientation="Horizontal">
+                <Label Content="{md:PackIcon Kind=Server}" />
+                <Label Content="FTP Server"
+                       FontWeight="600"
+                       Padding="0 1 0 0"
+                       FontSize="16" />
+            </StackPanel>
+        </Grid>
+        
+        <ContentPresenter Grid.Row="1"
+                          Content="{Binding ViewModel}" />
     </Grid>
 </Window>
