@@ -37,6 +37,10 @@
                        Padding="0 1 0 0"
                        FontSize="16" />
             </StackPanel>
+            
+            <Label Grid.Column="2"
+                   Margin="10"
+                   Content="{md:PackIcon Kind=MoonWaningCrescent}" />
         </Grid>
         
         <ContentPresenter Grid.Row="1"
