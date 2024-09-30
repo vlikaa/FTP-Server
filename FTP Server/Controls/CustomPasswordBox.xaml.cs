@@ -38,8 +38,6 @@ public partial class CustomPasswordBox
 			return;
 		}
 		
-		Console.WriteLine("HI");
-
 		ChangePlaceholderVisibility(passwordBox);
 		ChangeShowPassButtonVisibility(passwordBox);
 	}
