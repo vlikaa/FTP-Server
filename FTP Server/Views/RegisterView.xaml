@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:FTP_Server.Views"
+             xmlns:v="clr-namespace:FTP_Server.Views"
+             xmlns:vm="clr-namespace:FTP_Server.ViewModels"
              xmlns:c="clr-namespace:FTP_Server.Controls"
              mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance Type=vm:RegisterViewModel, IsDesignTimeCreatable=False}"
              d:DesignHeight="600" d:DesignWidth="300">
     <UserControl.Resources>
         <ControlTemplate x:Key="ButtonStyle">
@@ -116,6 +118,7 @@
         <Button Grid.Row="8"
                 Margin="0 4 0 0"
                 Content="Log In"
+                Command="{Binding OpenLoginViewCommand}"
                 HorizontalAlignment="Stretch"/>
     </Grid>
 </UserControl>
